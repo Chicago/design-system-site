@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CDS Bootstrap Implementation -->
+    <link rel="stylesheet" href="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/main.min.css" type="text/css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/all.min.css" type="text/css">
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/datepicker.css" type="text/css" />
+    <link rel="stylesheet" href="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/datepicker-cds.css" type="text/css" />
+    <!-- FB -->
+    <meta property="og:site_name" content="The Chicago Design System: Bootstrap implementation">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Chicago Design System" />
+    <meta property="og:url" content="https://chicago.github.io/design-cds-bootstrap/" />
+    <meta property="og:description" content="Welcome to the Chicago Design System as a Bootstrap 4 theme, with associated media for creating Internet applications." />
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="usually page title, but could be different" />
+    <meta property="twitter:description" content="card content, usually same as meta desc" />
+    <meta property="twitter:image" content="full path of the thumbnail image" />
+    <title>Chicago Design System</title>
+	 <style>
+.flex-row.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-row.row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row.row:after,
+.flex-row.row:before {
+    display: flex;
+}
+.flex-row .thumbnail,
+.flex-row .caption {
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+.flex-text {
+    flex-grow: 1
+}
+
+
+.featured-services .thumbnail  {
+    padding: 0px;
+
+}
+
+.featured-services .thumbnail .caption h5{ 
+	font-size: 1.1em;
+}
+
+ .featured-services .thumbnail  img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-color: #E4E9EB;
+
+}
+
+.featured-services .thumbnail {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.featured-services .thumbnail:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+
+	#infoSection .card-header { 
+		border:0px;
+	}
+	
+
+	.accordion-toggle.text-white a, .accordion-toggle.text-white::after {
+		color:#FFF;	
+	}
+		 
+	  </style>
+	  
+	  
+  </head>
+  <body>
+
+
+<!-- CDS SITE SEAL -->
+<div class='site-trust-seal'>
+        <div class='trust-seal-link container'>
+          <div class='row'>
+            <div class='col ml-2 trust-seal-link-container'  data-toggle="collapse" data-target="#trust-seal-content" role="button"
+            aria-expanded="false" aria-controls="trust-seal-content">
+              <img src='assets/img/safari-pinned-tab.svg' class='trust-seal-flag' title='Flag'>
+              <div>
+                <span>An official website of the City of Chicago</span>
+                <button class="trust-seal-action" title='Here’s how you know' 
+                    data-target="#trust-seal-content" role="button"
+                    data-toggle="collapse" 
+                    aria-expanded="false" aria-controls="trust-seal-content">
+                  <span>Here’s how you know</span>
+                </button>	
+              </div>										
+            </div>
+          </div>
+        </div>
+        <div class='trust-seal-content collapse container mt-4' aria-hidden='true' id='trust-seal-content'>
+          <div class='row'>
+            <div class='col-sm-6'>
+                <div class="media">
+                    <img class="mr-3 trust-seal-icon" src="assets/img/icon-dot-gov.svg" alt="Generic placeholder image">
+                    <div class="media-body">
+                    <h5 class="mt-0">The .gov means it’s official.</h5>
+                    Municipal government websites often end in .gov or .org. Before sharing sensitive information, make sure you’re on a City of Chicago government site.
+                    </div>
+                </div>
+            </div>
+            <div class='col-sm-6'>
+                <div class="media">
+                    <img class="mr-3 trust-seal-icon" src="assets/img/icon-https.svg" alt="Generic placeholder image">
+                    <div class="media-body">
+                    <h5 class="mt-0">The site is secure.</h5>
+                    The <strong>https://</strong> ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+                    </div>
+                </div>						
+            </div>					
+          </div>								
+        </div>					
+      </div>	
+<!-- CDS NAVBAR -->
+<header class="cds-header" role="banner">
+	<div class="cds-navbar">
+	  <button class="cds-menu-btn">MENU</button>
+	  <div class="cds-logo" id="logo">
+	    <em class="cds-logo-text">
+	      <a href="/design-cds-bootstrap/" title="Home">
+	        <img src="assets/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
+			    <h1 class="cds-header-title">Chicago</h1>
+	      </a>
+	    </em>
+	  </div>
+	</div>
+ 	<!--Start Navigation-->
+<nav role="navigation" class="cds-nav">
+    <div class="cds-nav-inner">
+      <button class="cds-nav-close">
+        <img src="assets/img/close.svg" alt="close">
+      </button>
+      <ul class="cds-nav-primary cds-accordion">
+        <li><a class="cds-nav-link" href="/design-cds-bootstrap/"><span>Home</span></a></li>
+  
+       
+        <li>
+          <button class="cds-accordion-button cds-nav-link" aria-expanded="false" aria-controls="nav-pi">
+            <span>Programs & Initiatives</span>
+          </button>
+          <div id="nav-pi" class="cds-nav-submenu cds-nav-megamenu row"  aria-hidden="true">
+            <div class="col-md-6">
+			<ul>							 					
+			<li>
+			<a title="Affordable Chicago" href="https://www.chicago.gov/city/en/progs/affordchic.html">Affordable Chicago</a>
+			<a title="Chicago Census 2020" href="/contenthttps://www.chicago.gov/city/en/sites/census2020/home.html">Chicago Census 2020</a>
+			<a title="Consumer Protection" href="https://www.chicago.gov/city/en/progs/protect.html">Consumer Protection</a>
+			<a title="Education" href="https://www.chicago.gov/city/en/progs/edu.html">Education</a>
+			<a title="Environment" href="https://www.chicago.gov/city/en/progs/env.html">Environment</a>
+			<a title="Food Service Establishments" href="https://www.chicago.gov/city/en/ofinterest/bus/food.html">Food Service Establishments</a> 
+			<a title="Freedom of Information (FOIA)" href="https://www.chicago.gov/city/en/progs/foia.html">Freedom of Information (FOIA)</a>
+			<a title="Grants" href="https://www.chicago.gov/city/en/progs/grants.html">Grants</a>
+			<a title="Grounds for Peace" href="https://www.chicago.gov/city/en/progs/grounds_for_peace.html">Grounds for Peace</a>
+			<a title="Health &amp; Wellness" href="https://www.chicago.gov/city/en/progs/health.html">Health &amp; Wellness</a>
+			<a title="Housing" href="https://www.chicago.gov/city/en/depts/doh.html">Housing</a>
+
+			</li>
+			</ul>
+		    
+            </div>
+            <div class="col-md-6">
+				<ul>
+				<li>
+				<a title="Inspections, Permitting &amp; Licensing" href="https://www.chicago.gov/city/en/progs/inspectionspermitting.html">Inspections, Permitting &amp; Licensing</a>
+				<a title="Jobs" href="https://www.chicago.gov/city/en/progs/emp.html">Jobs</a>
+				<a title="Municipal Marketing" href="https://www.chicago.gov/city/en/progs/municipal_marketing.html">Municipal Marketing</a>
+				<a title="Our City. Our Safety." href="https://www.chicago.gov/summer">Our City. Our Safety.</a>
+				<a title="Safety" href="https://www.chicago.gov/city/en/progs/safety.html">Safety</a>
+				<a title="Sustain Chicago" target="_blank" href="https://sustainchicago.cityofchicago.org/">Sustain Chicago</a>
+				<a title="Taxes" href="https://www.chicago.gov/city/en/progs/tax.html">Taxes</a>
+				<a title="Technology" href="https://www.chicago.gov/city/en/progs/tech.html">Technology</a>
+				<a title="Transparency" href="https://www.chicago.gov/city/en/progs/transparency.html">Transparency</a>
+				<a title="Transportation" href="https://www.chicago.gov/city/en/progs/trnsprt.html">Transportation</a>												
+
+				</li>
+				</ul>
+		    
+            </div>
+          </div>
+        </li>
+			      
+	      
+        <li>
+          <button class="cds-accordion-button cds-nav-link" aria-expanded="false" aria-controls="nav-5">
+            <span>Government</span>
+          </button>
+          <ul id="nav-5" class="cds-nav-submenu" aria-hidden="true">
+              <li><a href="#">Page title</a></li>
+              <li><a href="#">Page title one</a></li>
+              <li><a href="#">Page title two</a></li>
+              <li><a href="#">Link</a></li>
+          </ul>
+        </li>
+
+	 <li>
+          <button class="cds-accordion-button cds-nav-link" aria-expanded="false" aria-controls="nav-about">
+            <span>About</span>
+          </button>
+          <ul id="nav-about" class="cds-nav-submenu" aria-hidden="true">
+              <li><a title="Chicago History" href="https://www.chicago.gov/city/en/about/history.html">Chicago History</a></li>
+              <li><a title="Facts &amp; Statistics" href="https://www.chicago.gov/city/en/about/facts.html">Facts &amp; Statistics</a></li>
+              <li><a title="Attractions" href="https://www.choosechicago.com/" target="_blank">Attractions</a></li>       
+          </ul>
+        </li>
+	</ul>		
+      <div class="cds-nav-secondary">
+        <ul class="cds-unstyled-list cds-nav-secondary-links">
+            <li><a href="/design-cds-bootstrap/accessibility"><span>Accessibility </span></a></li>
+            <li>
+              <a href="#">
+                External link
+              </a>
+            </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<!-- CONTENT-->
+
+{{ content }}
+
+<!-- CDS SITE FOOTER -->
+<footer class="mt-4">
+    <div class='footer-primary'>
+      <div class='footer-primary-nav container' role='navigation'>
+        <a href='#'>Home</a>
+        <a href='#'>Disclaimer</a>
+        <a href='#'>Privacy Policy</a>
+        <a href='#'>Web Standards</a>
+        <a href='#'>Site Credits</a>
+        <a href='#'>Site Map</a>      
+      </div>
+    </div>
+    <div class='footer-main'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-sm-6'>
+    
+          <div class="media footer-media">
+            <img class="align-self-center mr-3" src="assets/img/city_seal_clr.png" alt="City of Chicago">
+            <div class="media-body align-self-center">
+              <h3 class="mt-0">City of Chicago</h3>
+            </div>
+            </div>
+
+        </div>
+        <div class='col-sm-6'>
+          <div class='footer-main-right'>
+            <div class='footer-social-links'>
+              <a href='#'><i class="fab fa-twitter"></i></a>
+              <a href='#'><i class="fab fa-facebook"></i></a>
+              <a href='#'><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class='footer-contact'>
+                <h4>Contact Info</h4>
+            </div>
+            <div class='footer-contact-links'>
+                <a href="#">info@chicago.gov</a>
+                <a href="#">(312)-774-2828</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://webapps1.chicago.gov/cdn/jQuery-3.4.1/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://webapps1.chicago.gov/cdn/Bootstrap-4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/js/uswds.min.js"></script>
+    <script src="https://webapps1.chicago.gov/cdn/chiwds/0.9.1/js/datepicker.min.js"></script>
+
+    <!-- DATEPICKER Init-->
+    <script>
+    (function($) {
+      $(function() {
+        const getNavigatorLanguage = () => (navigator.languages && navigator.languages.length) ? navigator.languages[0] : navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        $(".datepicker")
+          .filter(function() {
+            return !this.disabled && !this.readOnly;
+          })
+          .datepicker({ gainFocusOnConstruction: false, markup: 'bootstrap4' });
+         $('#date13').datepicker('next', '#date14');
+      });
+    })(this.jQuery);
+  </script>
+  </body>
+</html>
