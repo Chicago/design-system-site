@@ -21,7 +21,7 @@ Our Bootstrap implementation:
 - https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/main.min.css
 
 Font Awesome icons:
-- https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/main.min.css
+- https://webapps1.chicago.gov/cdn/FontAwesome-5.0.6/css/fontawesome-all.min.css
 
 Accessible datepicker:
 - https://webapps1.chicago.gov/cdn/chiwds/0.9.1/css/main.min.css
