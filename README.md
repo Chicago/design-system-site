@@ -3,12 +3,12 @@ This site is an example site for Chicago Digital Web Sites. It is the most recen
 
 ## Contents
 In this sample site you'll find a series of template pages with the most common uses of our components and layout.
-- General Landing Page.
+- [General Landing Page](https://chicago.github.io/design-system-site/).
 - Department Landing Page.
 - General Content page.
 - Not Found page (404).
 - Contac Us page.
-- Forms and common uses.
+- [Forms and common uses](https://chicago.github.io/design-system-site/forms).
 - Grid layout examples (Bootstrap columns).
 - Favicons.
 - Social share cards and examples.
