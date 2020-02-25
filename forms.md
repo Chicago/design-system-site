@@ -67,7 +67,7 @@ layout: city-page
                 <div class="form-group">
                     <label for="inputPasswordsi">Password *</label>
                     <input type="password" class="form-control" id="inputPasswordsi" placeholder="Enter password">
-                    <a href="#" class="btn btn-link btn-sm float-right">Show Password</a></small>
+                    <a href="#" class="btn btn-link btn-sm float-right">Show Password</a>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary btn-lg">Sign in</button>
@@ -94,7 +94,7 @@ layout: city-page
                 <div class="form-group">
                     <label for="inputPasswordFpc">Confirm password *</label>
                     <input type="password" class="form-control" id="inputPasswordFpc" placeholder="Confirm password">
-                    <a href="#" class="btn btn-link btn-sm float-right">Show Password</a></small>
+                    <a href="#" class="btn btn-link btn-sm float-right">Show Password</a>
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary">Reset password</button>
