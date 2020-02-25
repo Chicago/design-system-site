@@ -5,7 +5,7 @@ layout: city-page
 ---
 <!-- HERO-->
 
-{% include banner_nocallout.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
+{% include banner.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
 
 <!-- CONTENT-->
 <main role="main" class="container">
@@ -24,19 +24,17 @@ layout: city-page
           <h1>Contact Us</h1>
             <h4>By Mail:</h4>
             <p>
-City Hall<br>
-121 N. LaSalle Street<br>
-Chicago, Illinois 60602<br>
-</p>
-<h4>By Phone:</h4>
-<p>Dial 311 (within Chicago)
-<br>
-If calling from outside of Chicago, call: 312.744.5000
-</p>
-<h4>Online:</h4>
-<a href="https://webapps1.cityofchicago.org/eforms/contactUsForm" target="_blank">Fill out the City of Chicago feedback form</a>
-
-
+                City Hall<br>
+                121 N. LaSalle Street<br>
+                Chicago, Illinois 60602<br>
+            </p>
+            <h4>By Phone:</h4>
+            <p>Dial 311 (within Chicago)
+                <br>
+                If calling from outside of Chicago, call: 312.744.5000
+            </p>
+            <h4>Online:</h4>
+            <a href="https://webapps1.cityofchicago.org/eforms/contactUsForm" target="_blank">Fill out the City of Chicago feedback form</a>
           <hr>
 <!--End FD -->
         </div>
