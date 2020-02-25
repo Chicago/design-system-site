@@ -15,7 +15,7 @@ layout: city-page
 	}
 </style>
 
-{% include banner.md title="Contact Us" description="" banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
+{% include banner_nocallout.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
 
 <!-- CONTENT-->
 <main role="main" class="container">
@@ -24,8 +24,7 @@ layout: city-page
   <nav aria-label="breadcrumb" role="navigation">
     <ol class="breadcrumb mt-2">
       <li class="breadcrumb-item"><a href="#">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">Departments</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Innovation & Technology</li>
+      <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
     </ol>
   </nav>
   </div>
@@ -34,9 +33,22 @@ layout: city-page
       <div class="col-md-8">
   
         <div>
-          <h1>INNOVATION AND TECHNOLOGY</h1>
-  
-          <p>The City's innovation and information technology organization. DoIT's mission is to enhance delivery of City services through easy, reliable, cost-effective and secure access to information and to promote Chicago's advancement through technology.</p>
+          <h1>Contact Us</h1>
+            <h4>By Mail:</h4>
+            <p>
+City Hall<br>
+121 N. LaSalle Street<br>
+Chicago, Illinois 60602<br>
+</p>
+<h4>By Phone:</h4>
+<p>Dial 311 (within Chicago)
+<br>
+If calling from outside of Chicago, call: 312.744.5000
+</p>
+<h4>Online:</h4>
+<a href="https://webapps1.cityofchicago.org/eforms/contactUsForm" target="_blank">Fill out the City of Chicago feedback form</a>
+
+
           <hr>
 
    
