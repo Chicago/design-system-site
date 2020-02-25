@@ -1,6 +1,6 @@
 ---
 
-layout: city-page
+layout: page
 
 ---
 
