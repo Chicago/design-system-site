@@ -1,4 +1,4 @@
-# design-system-site
+# City of Chicago Design System Site
 This site is an example site for Chicago Digital Web Sites. It is the most recent published version of the Chicago Design System theme, found on our CDN. Our current stable version is 0.9.1.
 
 ## Contents
