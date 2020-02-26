@@ -5,7 +5,7 @@ layout: city-page
 ---
 <!-- HERO-->
 
-{% include banner.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
+{% include bannerPlain.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
 
 <!-- CONTENT-->
 <main role="main" class="container">
