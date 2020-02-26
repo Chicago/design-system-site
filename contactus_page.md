@@ -5,19 +5,17 @@ layout: city-page
 ---
 <!-- HERO-->
 
-{% include bannerPlain.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
+{% include banner_nocallout.md banner="https://www.chicago.gov/content/dam/city/general/banners/MiscBanner.9.17.jpg" %}
 
 <!-- CONTENT-->
 <main role="main" class="container">
     <div class="row">
-        <div class="col-12">
-            <nav aria-label="breadcrumb" role="navigation">
-            <ol class="breadcrumb mt-2">
-                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
-            </ol>
-            </nav>
-        </div>
+        <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb mt-2">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+        </ol>
+        </nav>
     </div>
     <div class="row">
       <div class="col-md-8">
@@ -35,7 +33,7 @@ layout: city-page
             </p>
             <h4>Online:</h4>
             <a href="https://webapps1.cityofchicago.org/eforms/contactUsForm" target="_blank">Fill out the City of Chicago feedback form</a>
-          <hr>
+          <p><br></p>
 <!--End FD -->
         </div>
 	  <!-- /.main-content -->

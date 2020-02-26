@@ -10,6 +10,6 @@
 
 <section class="cds-hero">
   <div class="container">
-    <p>&nbsp;<p>
+    <p></p>
   </div>
 </section>
