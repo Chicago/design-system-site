@@ -7,6 +7,15 @@ layout: city-page
 {% include banner_nocallout.md banner="https://chicago.github.io/design-cds-bootstrap/assets/img/404_banner.jpg" %}
 
 <div class="container">
+    <div class="row">
+        <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb mt-2">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Page not found</li>
+        </ol>
+        </nav>
+    </div>
+<div class="row">
   <div class="col-12 mt-5 mb-4">
     <h1>Whoops! We may be lost?</h1>
     <p>We are sorry but we can't find the page you are asking for.</p>
@@ -30,4 +39,5 @@ layout: city-page
       </div>
     </div>
   </div>
+</div>
 </div>
